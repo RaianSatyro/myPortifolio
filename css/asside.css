@@ -1,0 +1,165 @@
+body{
+    height: 176.7rem;
+    background-color: var(--body-bg-color);
+}
+
+.cards{
+    background-color: var(--bg-cards);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 2rem;
+
+    margin: 4rem 6rem 0rem 4rem;
+}
+
+/* Inicio do header */
+
+header {
+    width: 34.8rem;
+    height: 29.2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+header > img {
+    width: 128px;
+    height: 128px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 3.2rem;
+    border: 2px solid #00ff00;
+
+}
+
+.myName {
+    color: var(--text-color);
+    font-size: 2.3rem;
+    margin-top: 3rem;
+}
+
+.myStack{
+    color:var(--text-color);
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+
+/*----------------------------------------------------------------*/
+
+/* section myNetworks */
+
+.myNetworks {
+    width: 34.8rem;
+    height: 34.8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    margin-left: 4rem;
+    margin-top: 2.5rem;
+}
+
+.icons > a {
+    display: flex;
+    align-items: center;
+
+    text-decoration: none;
+}
+
+.icons span{
+    color: var(--text-color);
+    margin-left: 2rem;
+    font-size: 1.2rem;
+
+}
+
+.icons > img{
+    fill: var(--text-color);
+}
+
+/*----------------------------------------------------------------*/
+/* section myTecs */
+
+.myTecs {
+    width: 34.8rem;
+    height: 20.8rem;
+}
+
+.title{
+    font-size: 2rem;
+    color: var(--text-color);
+    font-weight: 700;
+    line-height: 2.5rem;
+
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.tecs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: space-evenly;
+
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.tec {
+    width: 8.6rem;
+    height: 2.4rem;
+    background-color:var(--bg-techs);
+    border-radius: 3rem;
+
+}
+
+.tec span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+}
+
+/*----------------------------------------------------------------*/
+/* Section Experiences */
+
+.experiences{
+    width: 34.8rem;
+    height: 14.8rem;
+}
+
+.experiences ul{
+    margin: 2rem 0 3rem 4rem;
+    padding-left: 1rem;
+
+}
+
+.experiences ul li{
+   margin-bottom: 3rem;
+   color: var(--text-color);
+}
+
+/*----------------------------------------------------------------*/
+/* Section Education */
+
+.education{
+    width: 34.8rem;
+    height: 40.0rem;
+}
+
+.education ul{
+    margin: 2rem 0 3rem 4rem;
+    padding-left: 1rem;
+}
+
+.education ul li{
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}

@@ -1,0 +1,56 @@
+.mainCards{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    background-color: var(--bg-cards);
+    margin: 4rem 4rem 0 0;
+}
+
+
+.myProjects {
+    width: 95.2rem;
+    height: 8.6rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.content{
+    width: 95.2rem;
+    height: 8.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#buttonVerMais{
+    background: none;
+    border: none;
+    width: 7.1rem;
+    color: var(--text-color);
+    margin-right: 3rem;
+    font-size: 1.4rem;
+}
+
+.content > h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text-color);
+    margin-left: 3rem;
+}
+
+#buttonVerMais:hover{
+    cursor: pointer;
+}
+
+
+.vejaMais{
+    height: auto;
+}
+
+.hidden{
+    display: none;
+}
+
+img{
+    max-width: 50%;
+}

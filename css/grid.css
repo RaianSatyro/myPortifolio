@@ -1,0 +1,26 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 100vh;
+    grid-template-areas: 
+    "asside main main "
+    "asside main main "
+    "asside main main "
+    "footer footer footer";
+}
+
+main {
+    grid-area: main;
+
+}
+
+aside {
+    grid-area: asside;
+
+    
+
+}
+
+footer{
+    grid-area: footer;
+}
