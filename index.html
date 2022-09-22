@@ -9,76 +9,155 @@
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/asside.css">
+    <link rel="stylesheet" href="css/scroll.css">
 
     <title>Document</title>
 </head>
 <body>
     <div class="container">
         <main>
-                <div class="mainCards myProjects vejaMais"> 
-                    <div class="content">
-                        <h2>My Projects</h2>
-                        <input type="button" value="Veja Todos" id="buttonVerMais">
-                    </div>
-
-                    <div class="projects hidden" id="Projetos">
-                        <img src="assets/imagens/img_site_pokedex.png" alt="">
-                        
-                    </div>
+            <div class="mainCards myProjects seeMore"> 
+                <div class="content">
+                    <h2>My Projects</h2>
+                    <input type="button" value="Veja Todos" id="buttonSeeMore">
                 </div>
-           
 
-            <article class="project"></article>
-            <article class="project"></article>
+                <div class="projects seeMore hidden" id="Projetos">
+                    <img src="assets/imagens/img_site_pokedex.png" alt="">
+                        
+                </div>
+            </div>
+                   
+            <div class="recentProjects">  
 
+                    <h2 class="title"> Projetos Recents</h2>
+                    <div class="artigos">
+
+                        <a href="https://github.com/RaianSatyro/landing-page-Mundo-invertido" target="_blank">
+
+                            <article class="gitHubFolders mainCards">
+
+                                <div class="cabecalho">
+                                    <img src="assets/folder.svg" alt="Imagem de pasta">
+                                    <p>landing-page-Mundo-invertido</p>
+                                </div>
+
+                                <p>Projeto construído para fins didáticos, com o objetivo de colocar em prática os conhecimentos de HTML, CSS e JavaScript aprendidos na DIO._</p>
+
+                                <div class="Infos">
+                                    <div class="gitHubInfos">
+                                        <img src="assets/star.svg" alt="Imagem de uma estrela de 5 pontas"><span>2</span>
+                                        <img src="assets/git-branch.svg" alt=""><span>6</span>
+                                    </div>
+
+                                    <div class="ImagensTecs">
+                                        <img src="assets/tecs/icons8-javascript-144.png" alt="">
+                                        <img src="assets/tecs/icons8-html-5-144.png" alt="">
+                                        <img src="assets/tecs/icons8-css3-144.png" alt="">
+                                    </div>
+
+                                </div>
+
+                            </article>
+                        </a>
+
+                        <a href="https://github.com/RaianSatyro/NetFlix_clone">
+
+                        <article class="gitHubFolders mainCards">
+
+                            <div class="cabecalho">
+                                <img src="assets/folder.svg" alt="Imagem de pasta">
+                                <p>NetFlix_clone </p>
+                            </div>
+
+                            <p>Criando Clone da Netflix como exercício no bootcamp Carrefour Web Developer</p>
+
+                            <div class="Infos">
+
+                                <div class="gitHubInfos">
+                                    <img src="assets/star.svg" alt="Imagem de uma estrela de 5 pontas"><span>1</span>
+                                    <img src="assets/git-branch.svg" alt=""><span>12</span>
+                                </div>
+
+                                <div class="ImagensTecs">
+                                    <img src="assets/tecs/icons8-javascript-144.png" alt="">
+                                    <img src="assets/tecs/icons8-html-5-144.png" alt="">
+                                    <img src="assets/tecs/icons8-css3-144.png" alt="">
+                                </div>
+
+                            </div>
+                        </article>
+                        </a>
+
+                    </div>
+            </div> 
+
+            <section class="postContent mainCards">
+                    <img src="assets/WhatsApp Image 2022-03-30 at 15.57.09.jpeg" alt="">
+                <div class="textos">
+                    <h3>Erro adb devices no Genymotion e Android Studio (React Native)</h3>
+                    <span id="datePost">2 anos atrás</span>
+                    <p>Erro adb devices no Genymotion e Android Studio (React Native)</p>
+                    <div id="Hashs">
+                        <span>#react-native</span>
+                        <span>#genimotion</span>
+                        <span>#genimotion</span>
+                        <span>#genimotion</span>
+                        </div>
+                </div>
+            </section>
         </main>
         
         <aside>
-            <header class="cards">
+            <header class="Perfil cards">
                 <img src="assets/WhatsApp Image 2022-03-30 at 15.57.09.jpeg" alt="">
                 <h1 class="myName">Raian Satyro</h1>
                 <p class="myStack">Front-end developer</p>
             </header>
-
 
             <section class="myNetworks cards">
                <div class="icons firstIcon">
                     <img src="assets/map-pin.svg" alt="icone de localização" class="locate">
                     <span>Brasil - RJ</span>
                </div>
+               
                <div class="icons">
                     <img src="assets/briefcase.svg" alt="imagem de uma mala representando um trabalho" class="job">
                     <span>Oggi Sorvetes</span>
                </div>
+
                <div class="icons">
                     <a href="https://github.com/RaianSatyro" target="_blank" rel="noopener"> 
                         <img src="assets/github.svg" alt="Imagem de um gato caracteristica do github">
                         <span>RaianSatyro</span>
                     </a>
                </div>
+
                <div class="icons">
                     <a href="https://www.linkedin.com/in/raian-satyro-a8353a122/" target="_blank">
                         <img src="assets/linkedin.svg" alt="Imagem da logo do linkedin com I e um N">
                         <span>raian-satyro</span>
                     </a>
                </div>
+
                <div class="icons">
                     <a href="https://twitter.com/RaianSatyro?t=I5jqIbe0U1guQqHmTXP3-Q&s=08" target="_blank">
                         <img src="assets/twitter.svg" alt="Imagem da Twitter">
                         <span>RaianSatyro</span>
                     </a>               
                </div>
+
                <div class="icons">
                     <address>
                         <a href="mailto:raiansatyro45@gmail.com" target="_blank">
+                    
+                            <img src="assets/mail.svg" alt="Imagem de email">
+                            <span>raiansatyro45@gmail.com</span>
+                        </a>
                     </address>
-                        <img src="assets/mail.svg" alt="Imagem de email">
-                        <span>raiansatyro45@gmail.com</span>
-                    </a>
                </div>
                     
             </section>
-
 
             <section class="myTecs cards">">
                 <h2 class="title">Tecnologias</h2>
@@ -97,6 +176,8 @@
                     <div class="tec JAVA "><span> JAVA </span></div>
 
                     <div class="tec github"><span>GITHUB</span></div>
+
+                    <div class="tec BootsTrap"><span>BOOTSTRAP</span></div>
                 </div>
             </section>
 
@@ -110,9 +191,7 @@
                             Desenvolverdor Front-end
                             </span>
                         </li>
-                    </ul>
-    
-                    
+                    </ul>                    
                 </div>
                 
             </section>
@@ -126,39 +205,46 @@
                         <br>
                         <span>Cruzeiro do Sul</span>
                     </li>
+
                     <li>
                         <h3>Tecnico de Informatica</h3>
                         <span> FEV 2021 - JUL 2022</span>
                         <br>
                         <span>SENAI</span>
                     </li>
+
                     <li>
                         <h3>JavaScript</h3>
                         <span> AGO 2022 </span>
                         <br>
                         <span>Curso em Video</span>
                     </li>
+
                     <li>
                         <h3>Manipulando DOM</h3>
                         <span> MAI 2022 </span>
                         <br>
                         <span>DIO</span>
                     </li>
+
                     <li>
                         <h3>Projetos ágeis com SCRUM</h3>
                         <span> ABR 2022 </span>
                         <br>
                         <span>DIO</span>
                     </li>
+
                     <li>
                         <h3>Projetos ágeis com SCRUM</h3>
                         <span> ABR 2022 </span>
                         <br>
                         <span>DIO</span>
                     </li>
+
                 </ul>
             </section>
         </aside>
+
         <footer></footer>
     </div>
 </body>

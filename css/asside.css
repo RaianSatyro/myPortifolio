@@ -51,7 +51,6 @@ header > img {
 
 .myNetworks {
     width: 34.8rem;
-    height: 34.8rem;
     display: flex;
     flex-direction: column;
 }
@@ -64,10 +63,17 @@ header > img {
 }
 
 .icons > a {
+    width: 100%;
     display: flex;
     align-items: center;
 
     text-decoration: none;
+}
+
+
+section > .icons > a >span:hover {
+    color: #00ff00;
+    text-decoration: solid;
 }
 
 .icons span{
@@ -77,8 +83,8 @@ header > img {
 
 }
 
-.icons > img{
-    fill: var(--text-color);
+.icons:last-child{
+    margin-bottom: 2.5rem;
 }
 
 /*----------------------------------------------------------------*/
