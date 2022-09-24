@@ -1,9 +1,9 @@
 const button = document.getElementById('buttonSeeMore');
-const projetos = document.getElementById('Projetos');
+const projetos = document.getElementById('projetos');
 const verMais = 'seeMore'
 const esconder = 'hidden';
 const textButton = 'textButton'
-const divPrjetos = document.getElementById('Projetos');
+const divPrjetos = document.getElementById('projetos');
 
 
 function changeClass(){
@@ -13,7 +13,7 @@ function changeClass(){
 
 }
 
-function changeText(){
+function changeTextbutton(){
     const seeAllText = "Veja Todos";
     const seeLessText = "Veja Menos";
 
@@ -30,7 +30,7 @@ function changeText(){
 
 function callFunctions(){
     changeClass();
-    changeText();
+    changeTextbutton();
 }
 
 button.addEventListener('click', callFunctions);

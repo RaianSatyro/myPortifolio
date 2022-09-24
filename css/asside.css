@@ -62,6 +62,10 @@ header > img {
     margin-top: 2.5rem;
 }
 
+.icons > address {
+    display: flex;
+}
+
 .icons > a {
     width: 100%;
     display: flex;

@@ -42,17 +42,32 @@
     transition: 0.3s;
 }
 
-
+.projects{
+    display: flex;
+}
 
 .hidden{
     display: none;
-    transition: step-end 2s ;
 }
+
+
+.detalhesMeusProjetos{
+    width: 50%;
+    height: auto;
+    
+    border-radius: 2rem;;
+    padding: 10px;
+}
+.capaMeusProjetos{
+    width: 50%;
+    margin: 0;
+}
+
 
 img{
     border-radius: 2rem;;
     padding: 10px;
-    max-width: 50%;
+    max-width: 100%;
 }
 
 /*----------------------------------------------------------------*/
